@@ -1,0 +1,23 @@
+
+a{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #737380;
+    &:hover{
+        span{
+            color: #000;
+        }
+        i{
+            color: blue;
+        }
+    }
+}
+p{
+    margin: 1rem 0 3rem;
+    font-weight: bold;
+    color: #000;
+}
+#menu li{
+    margin-bottom: 1rem;
+}

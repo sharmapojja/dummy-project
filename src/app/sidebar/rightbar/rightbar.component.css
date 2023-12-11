@@ -1,0 +1,60 @@
+#rightbar-container{
+    width: 280px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.profile{
+justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile img{
+    width: 7rem;
+}
+.profile-top{
+    background: #8080802e;
+    border-radius: 50%;
+}
+.profile-bottom{
+    text-align: center;
+}
+.main-Course button{
+    background: #80808040;
+}
+.progress{
+    height: 0.5rem;
+}
+.Course{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+.reminder-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+}
+.reminder-card button{
+    color: #ff808b;
+    background-color: #fcbdc2;
+}
+.reminder-card p{
+    margin-bottom: 0px;
+}
+.reminder-card {
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+    section{
+        display: none;
+    }
+}

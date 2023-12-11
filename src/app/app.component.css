@@ -1,0 +1,20 @@
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+app-leftbar-menu{
+    display: block;
+    width: 180px;
+}
+app-rightbar{
+    display: block;
+    max-width: 280px!important;
+}
+@media screen and (max-width: 700px) {
+    app-leftbar-menu{
+        max-width: 75px!important;
+    }
+}
+span{
+    color: rgb(156, 154, 154) !important;
+}
