@@ -7,7 +7,8 @@ import { TestService } from 'src/app/test.service';
   styleUrls: ['./classes.component.css']
 })
 export class ClassesComponent {
-  data!: any[];
+  all_data: any;
+  userData: any;
 
 
   constructor(private dummyService: TestService) { }
@@ -15,7 +16,11 @@ export class ClassesComponent {
   ngOnInit() {
 
     this.dummyService.getData().subscribe((data)=>{
-      console.log(data);
+      // console.log(data);
+      this.all_data = data;
+      console.log(this.all_data.dashboardData);
+      this.userData = this.all_data.dashboardData.userData;
+      // }
     })  
   }
 }
